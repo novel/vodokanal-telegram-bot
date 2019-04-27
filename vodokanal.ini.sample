@@ -1,0 +1,7 @@
+[general]
+db_path = /path/to/vodokanal.db
+
+[telegram]
+bot_token = some_bot_token
+bot_proxy = http://myproxy:12345
+channel = @test

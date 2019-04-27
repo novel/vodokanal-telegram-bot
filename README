@@ -1,0 +1,13 @@
+# py-vodokanal
+
+Parses news from http://www.saratovvodokanal.ru and sends out
+announcements to a Telegram channel.
+It doesn't do any polling, should be used with `cron` instead.
+
+Parses HTML because saratovvodokanal.ru constantly breaks RSS and e-mail
+notifications, so this appears to be the most reliable way in this case.
+
+Should be easy to make it generic enough for parsing news of arbitrary
+web sites.
+
+Needs unit tests.

@@ -1,4 +1,4 @@
-# py-vodokanal
+# vodokanal-telegram-bot
 
 Parses news from http://www.saratovvodokanal.ru and sends out
 announcements to a Telegram channel.
